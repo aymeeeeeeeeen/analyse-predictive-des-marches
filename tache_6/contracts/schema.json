@@ -1,0 +1,296 @@
+{
+  "features": {
+    "task": 5,
+    "key": [
+      "case_id",
+      "feature_id",
+      "market_id",
+      "cutoff"
+    ],
+    "columns": {
+      "case_id": "text",
+      "feature_id": "text",
+      "market_id": "text",
+      "cutoff": "date",
+      "company_on": "int?",
+      "company_total": "int?",
+      "company_share": "ratio?",
+      "company_coverage": "text",
+      "consumer_on": "int?",
+      "consumer_total": "int?",
+      "consumer_share": "ratio?",
+      "consumer_coverage": "text",
+      "negative": "int?",
+      "classifiable": "int?",
+      "unknown": "int?",
+      "negative_share": "ratio?"
+    }
+  },
+  "adoption_events": {
+    "task": 1,
+    "key": [
+      "event_id"
+    ],
+    "columns": {
+      "event_id": "text",
+      "case_id": "text",
+      "feature_id": "text",
+      "market_id": "text",
+      "brand_id": "text",
+      "product_id": "text",
+      "event_type": "text",
+      "event_date": "date",
+      "evidence_available_at": "date",
+      "evidence_url": "text?"
+    }
+  },
+  "predictions": {
+    "task": 5,
+    "key": [
+      "case_id",
+      "feature_id",
+      "market_id",
+      "cutoff",
+      "horizon_months",
+      "model_id",
+      "run_id"
+    ],
+    "columns": {
+      "case_id": "text",
+      "feature_id": "text",
+      "market_id": "text",
+      "cutoff": "date",
+      "horizon_months": "positive_int",
+      "model_id": "text",
+      "run_id": "text",
+      "p_event": "ratio?",
+      "threshold": "ratio",
+      "decision": "binary?",
+      "status": "text",
+      "input_version": "text"
+    }
+  },
+  "labels": {
+    "task": 5,
+    "key": [
+      "case_id",
+      "feature_id",
+      "market_id",
+      "cutoff",
+      "horizon_months"
+    ],
+    "columns": {
+      "case_id": "text",
+      "feature_id": "text",
+      "market_id": "text",
+      "cutoff": "date",
+      "horizon_months": "positive_int",
+      "horizon_end": "date",
+      "y": "binary?",
+      "label_status": "text",
+      "label_available_at": "date?",
+      "new_brands": "int?",
+      "event_ids": "text?"
+    }
+  },
+  "consumer_documents": {
+    "task": 3,
+    "key": [
+      "document_id"
+    ],
+    "columns": {
+      "document_id": "text",
+      "source_record_id": "text",
+      "source_type": "text",
+      "source_id": "text",
+      "text": "text",
+      "language": "text",
+      "url": "text?",
+      "published_at": "date",
+      "version_available_at": "date?",
+      "date_status": "text",
+      "duplicate_group_id": "text"
+    }
+  },
+  "company_documents": {
+    "task": 2,
+    "key": [
+      "document_id"
+    ],
+    "columns": {
+      "document_id": "text",
+      "source_record_id": "text",
+      "source_type": "text",
+      "source_id": "text",
+      "text": "text",
+      "language": "text",
+      "url": "text?",
+      "published_at": "date",
+      "version_available_at": "date?",
+      "date_status": "text",
+      "duplicate_group_id": "text"
+    }
+  },
+  "passages": {
+    "task": 4,
+    "key": [
+      "passage_id"
+    ],
+    "columns": {
+      "passage_id": "text",
+      "document_id": "text",
+      "text": "text"
+    }
+  },
+  "topics": {
+    "task": 4,
+    "key": [
+      "aspect_id"
+    ],
+    "columns": {
+      "aspect_id": "text",
+      "label": "text",
+      "feature_id": "text"
+    }
+  },
+  "opinions": {
+    "task": 4,
+    "key": [
+      "opinion_id"
+    ],
+    "columns": {
+      "opinion_id": "text",
+      "passage_id": "text",
+      "aspect_id": "text",
+      "sentiment": "text",
+      "review_status": "text",
+      "evidence_text": "text",
+      "nlp_run_id": "text"
+    }
+  },
+  "expression_signals": {
+    "task": 4,
+    "key": [
+      "opinion_id",
+      "signal_name"
+    ],
+    "columns": {
+      "opinion_id": "text",
+      "signal_name": "text",
+      "signal_value": "text",
+      "review_status": "text"
+    }
+  },
+  "document_scope": {
+    "task": "2/3",
+    "key": [
+      "document_id",
+      "case_id",
+      "market_id"
+    ],
+    "columns": {
+      "document_id": "text",
+      "case_id": "text",
+      "market_id": "text"
+    }
+  },
+  "nlp_runs": {
+    "task": 4,
+    "key": [
+      "nlp_run_id"
+    ],
+    "columns": {
+      "nlp_run_id": "text",
+      "model_version": "text",
+      "training_cutoff": "date"
+    }
+  },
+  "sem_indicators": {
+    "task": 5,
+    "key": [
+      "item_id"
+    ],
+    "columns": {
+      "item_id": "text",
+      "construct_id": "text",
+      "definition": "text",
+      "validation_status": "text"
+    }
+  },
+  "sem_measurement": {
+    "task": 5,
+    "key": [
+      "construct_id",
+      "item_id",
+      "metric"
+    ],
+    "columns": {
+      "construct_id": "text",
+      "item_id": "text",
+      "metric": "text",
+      "value": "number"
+    }
+  },
+  "sem_paths": {
+    "task": 5,
+    "key": [
+      "source",
+      "target"
+    ],
+    "columns": {
+      "source": "text",
+      "target": "text",
+      "coefficient": "number",
+      "ci_low": "number",
+      "ci_high": "number"
+    }
+  },
+  "company_coverage": {
+    "task": 2,
+    "key": [
+      "case_id",
+      "market_id",
+      "source_id",
+      "period_end"
+    ],
+    "columns": {
+      "case_id": "text",
+      "market_id": "text",
+      "source_id": "text",
+      "period_end": "date",
+      "coverage_status": "text",
+      "comment": "text?"
+    }
+  },
+  "consumer_coverage": {
+    "task": 3,
+    "key": [
+      "case_id",
+      "market_id",
+      "source_id",
+      "period_end"
+    ],
+    "columns": {
+      "case_id": "text",
+      "market_id": "text",
+      "source_id": "text",
+      "period_end": "date",
+      "coverage_status": "text",
+      "comment": "text?"
+    }
+  },
+  "document_topics": {
+    "task": 4,
+    "key": [
+      "document_id",
+      "aspect_id",
+      "nlp_run_id"
+    ],
+    "columns": {
+      "document_id": "text",
+      "aspect_id": "text",
+      "nlp_run_id": "text",
+      "assigned": "binary"
+    }
+  }
+}

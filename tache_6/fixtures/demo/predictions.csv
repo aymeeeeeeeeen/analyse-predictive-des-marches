@@ -1,0 +1,4 @@
+case_id,feature_id,market_id,cutoff,horizon_months,model_id,run_id,p_event,threshold,decision,status,input_version
+AUTO_UI,HVAC_SCREEN,M1,2020-12-31,12,Logistique,demo-v1,0.68,0.6,1,ready,features-demo-v1
+AUTO_UI,HVAC_SCREEN,M1,2020-12-31,12,Référence,demo-v1,0.42,0.6,0,ready,features-demo-v1
+AUTO_UI,HVAC_SCREEN,M1,2021-03-31,12,Logistique,demo-v2,,0.6,,insufficient_data,features-demo-v2

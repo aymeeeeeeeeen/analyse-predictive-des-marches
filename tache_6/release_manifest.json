@@ -1,0 +1,69 @@
+{
+  "version": "0.1.0",
+  "dataset_id": "auto-ui-demo-v1",
+  "schema_version": "0.1",
+  "is_synthetic": true,
+  "config_sha256": "6e9544885fcf35ba42ad37ef93459a10f561a07eee5da8c67e82bc0c066e4b74",
+  "inputs_sha256": {
+    "adoption_events.csv": "1ac6351a7857d21722f1dabcd21e5e708e80150a53a9e617398af5d9c522c38a",
+    "company_coverage.csv": "f88d45048a13fb8b2eb198f49e7a3ddd02466f8df73198b4dcd1d7566eac3f24",
+    "company_documents.csv": "03ca6be7149c3d450a35bb9137eb3e759fcb8e95b6a822c46731b0b6d5901bd7",
+    "consumer_coverage.csv": "f9cd8e5464ef20824b3670d50308a48a8125f8ef903a28fedba20e22c0d8f3e8",
+    "consumer_documents.csv": "bcabf2f3ccb20929ab359bb82aae561f2523aa1f16e9826d65c3c24b04c714ff",
+    "document_scope.csv": "41ad51e65725f6f430769fb8ac107fa92d7b1cf74b4f9488268b4f41bf9d5c7b",
+    "document_topics.csv": "d437275c53ea8db6c968a29ed4d9f5a006c21eed5c348682a890581b2becdc4f",
+    "expression_signals.csv": "154653efdb14dfd9cd0ff1e77d2a9d2099fb13312826d7ea50c0a6d11c104624",
+    "features.csv": "360ed19c3638de62dd0d2ba0651e766b552a00ae6f53d3f51eeaa146362e6045",
+    "labels.csv": "f2ba7bb98d884361ab649f6e70c182943ba865d3875d82bebe97bcdb5091308c",
+    "manifest.json": "555e4d36474988b7591f06861eac0cf200edfaa8fa74e7be3350ac9aa73d5b44",
+    "nlp_runs.csv": "757ae9bbc5b8ff72c9a3fd01fe590dcea07a850711a816ceb54e34bb1d7fd344",
+    "opinions.csv": "5fde1f581ce366246c998f666a524f105651231bfbe001e1967bf95997e08100",
+    "passages.csv": "c2a27507203974e00eee88f0203fbe8cf6a495e56c4c4cab4c7aa92243c2b93f",
+    "predictions.csv": "da0e55dedd490f356cf45febd3bcbf73d1d1da6fea32c022147e5d54572cd4af",
+    "sem_indicators.csv": "d05f4283e48dafe3a28c381c78140988b38d4e54302379407343adc4f31014ba",
+    "sem_measurement.csv": "7477076640cef573f3ae1ce788a84d8acad2a8b73f338a971b41f49149e3680b",
+    "sem_paths.csv": "7d668b21313bcb3860056952e9fed13100841376bd3692fa45fe5b93a2d12b6a",
+    "sem_spec.json": "612311ff222c13cf08c2a12351b2aedbc47e52e3832ebfa459004f9e3de30821",
+    "sem_status.json": "9045b692471fe7843de997fa759e1122a8a47ac8a570f2be6103f6030740e578",
+    "topics.csv": "4955f34e828c66e60df706e94f512893f3b95068d568834b18477284cf78e5f6"
+  },
+  "code_sha256": {
+    "app.py": "15d4c265c23f58b337e580caee40def463895c0ac38034e99109929d14b29210",
+    "integration.py": "64ab1a9f5c1ecbc426113f14861d24b8dde644894b4389832be1566e91e95c61",
+    "run_pipeline.py": "0987190f81b7b16d5038eab77c7a25ac090b75ff6d43c21f045bf993b8a89998",
+    "contracts/schema.json": "c6a4f092f318611acb52210653800d31dee1cac828bee400c0c0ef839fbf8ead",
+    "requirements.lock": "3a981d29ddd73dcd4ff6680123a88594224ba206b9e1554efce02f6543a150fe"
+  },
+  "runs": [
+    "demo-v1",
+    "demo-v2"
+  ],
+  "models": [
+    "Logistique",
+    "Référence"
+  ],
+  "nlp_runs": [
+    "nlp-demo"
+  ],
+  "rows": {
+    "features": 5,
+    "adoption_events": 4,
+    "predictions": 3,
+    "labels": 2,
+    "consumer_documents": 2,
+    "company_documents": 1,
+    "passages": 3,
+    "topics": 2,
+    "opinions": 3,
+    "expression_signals": 2,
+    "document_scope": 3,
+    "nlp_runs": 1,
+    "sem_indicators": 2,
+    "sem_measurement": 0,
+    "sem_paths": 0,
+    "company_coverage": 3,
+    "consumer_coverage": 3,
+    "document_topics": 4
+  },
+  "pending": []
+}

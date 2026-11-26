@@ -1,0 +1,5 @@
+document_id,aspect_id,nlp_run_id,assigned
+C001,HVAC_USE,nlp-demo,1
+U017,HVAC_USE,nlp-demo,1
+U017,DASH_DESIGN,nlp-demo,1
+U018,HVAC_USE,nlp-demo,1

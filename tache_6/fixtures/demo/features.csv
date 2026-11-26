@@ -1,0 +1,6 @@
+case_id,feature_id,market_id,cutoff,company_on,company_total,company_share,company_coverage,consumer_on,consumer_total,consumer_share,consumer_coverage,negative,classifiable,unknown,negative_share
+AUTO_UI,HVAC_SCREEN,M1,2020-03-31,1,10,0.1,complete,2,20,0.1,complete,1,2,0,0.5
+AUTO_UI,HVAC_SCREEN,M1,2020-06-30,2,10,0.2,complete,,,,not_collected,,,,
+AUTO_UI,HVAC_SCREEN,M1,2020-09-30,3,15,0.2,partial,6,30,0.2,complete,2,5,1,0.4
+AUTO_UI,HVAC_SCREEN,M1,2020-12-31,6,20,0.3,complete,12,40,0.3,complete,4,10,2,0.4
+AUTO_UI,HVAC_SCREEN,M1,2021-03-31,,,,failed,,,,not_collected,,,,

@@ -1,0 +1,4 @@
+opinion_id,passage_id,aspect_id,sentiment,review_status,evidence_text,nlp_run_id
+OP1,U017-P1,DASH_DESIGN,positive,accepted,Le tableau de bord est beau,nlp-demo
+OP2,U017-P2,HVAC_USE,negative,accepted,trois menus pour changer la température,nlp-demo
+OP3,U018-P1,HVAC_USE,unknown,needs_review,Avis repris,nlp-demo

@@ -1,0 +1,3 @@
+aspect_id,label,feature_id
+HVAC_USE,Usage des commandes,HVAC_SCREEN
+DASH_DESIGN,Design du tableau de bord,DASH_DESIGN

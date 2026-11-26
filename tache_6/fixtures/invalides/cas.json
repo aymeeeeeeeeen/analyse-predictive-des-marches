@@ -1,0 +1,54 @@
+{
+  "is_synthetic": true,
+  "base": "fixtures/demo",
+  "cas": [
+    {
+      "table": "features",
+      "line": 3,
+      "changes": {
+        "negative_share": 0.9
+      },
+      "attendu": "negative_share"
+    },
+    {
+      "table": "labels",
+      "line": 0,
+      "changes": {
+        "label_available_at": "2021-01-05"
+      },
+      "attendu": "avant la fin"
+    },
+    {
+      "table": "opinions",
+      "line": 1,
+      "changes": {
+        "passage_id": "ABSENT"
+      },
+      "attendu": "passage_id"
+    },
+    {
+      "table": "features",
+      "line": 1,
+      "changes": {
+        "consumer_on": 0
+      },
+      "attendu": "collecte absente"
+    },
+    {
+      "table": "predictions",
+      "line": 0,
+      "changes": {
+        "p_event": 1.5
+      },
+      "attendu": "p_event"
+    },
+    {
+      "table": "consumer_documents",
+      "line": 1,
+      "changes": {
+        "document_id": "U017"
+      },
+      "attendu": "doublon"
+    }
+  ]
+}

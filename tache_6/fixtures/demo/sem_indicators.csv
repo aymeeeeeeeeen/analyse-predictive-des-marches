@@ -1,0 +1,3 @@
+item_id,construct_id,definition,validation_status
+EFFORT,Difficulté exprimée,Effort de navigation rapporté,proposed
+ACCEPT,Acceptation exprimée,Acceptation explicite de l’interface,proposed

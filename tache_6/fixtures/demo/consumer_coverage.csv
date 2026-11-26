@@ -1,0 +1,4 @@
+case_id,market_id,source_id,period_end,coverage_status,comment
+AUTO_UI,M1,Forum M1,2020-06-30,not_collected,État fictif pour le contrôle du parcours.
+AUTO_UI,M1,Forum M1,2020-12-31,complete,État fictif pour le contrôle du parcours.
+AUTO_UI,M1,Forum M1,2021-03-31,not_collected,État fictif pour le contrôle du parcours.

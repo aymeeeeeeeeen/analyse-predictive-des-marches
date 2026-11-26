@@ -1,0 +1,13 @@
+{
+  "case_id": "AUTO_UI",
+  "market_id": "M1",
+  "unit": "Un avis original sur une interface",
+  "constructs": [
+    "Difficulté exprimée",
+    "Frustration exprimée",
+    "Acceptation exprimée"
+  ],
+  "hypotheses": [
+    "Une difficulté exprimée pourrait être associée à la frustration exprimée."
+  ]
+}

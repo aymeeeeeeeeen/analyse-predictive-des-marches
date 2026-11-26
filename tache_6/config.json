@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1",
+  "data_dir": "fixtures/demo",
+  "mode": "demo",
+  "scopes": [
+    {
+      "case_id": "AUTO_UI",
+      "feature_id": "HVAC_SCREEN",
+      "market_id": "M1",
+      "case": "Interfaces automobiles",
+      "feature": "Climatisation sur écran",
+      "market": "Marché fictif M1",
+      "cutoffs": [
+        "2020-03-31",
+        "2020-06-30",
+        "2020-09-30",
+        "2020-12-31",
+        "2021-03-31"
+      ],
+      "default_cutoff": "2020-12-31",
+      "target": "Au moins deux marques supplémentaires du panel A–D commercialisent un modèle dont la température se règle sur écran sans commande physique dédiée.",
+      "adoption_threshold": 2
+    }
+  ],
+  "stages": []
+}

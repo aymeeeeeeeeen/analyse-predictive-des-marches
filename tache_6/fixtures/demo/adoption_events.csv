@@ -1,0 +1,5 @@
+event_id,case_id,feature_id,market_id,brand_id,product_id,event_type,event_date,evidence_available_at,evidence_url
+E001,AUTO_UI,HVAC_SCREEN,M1,A,A1,sale,2020-09-01,2020-09-01,
+A002,AUTO_UI,HVAC_SCREEN,M1,B,B1,announcement,2021-02-12,2021-02-12,
+E002,AUTO_UI,HVAC_SCREEN,M1,B,B1,sale,2021-04-15,2021-04-15,
+E003,AUTO_UI,HVAC_SCREEN,M1,C,C1,sale,2021-10-20,2021-10-20,

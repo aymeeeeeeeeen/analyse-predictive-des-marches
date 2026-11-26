@@ -1,0 +1,3 @@
+case_id,feature_id,market_id,cutoff,horizon_months,horizon_end,y,label_status,label_available_at,new_brands,event_ids
+AUTO_UI,HVAC_SCREEN,M1,2020-12-31,12,2021-12-31,1,observed,2022-01-10,2,E002|E003
+AUTO_UI,HVAC_SCREEN,M1,2021-03-31,12,2022-03-31,,unknown,,,
